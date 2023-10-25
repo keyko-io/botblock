@@ -5,7 +5,7 @@ import { Web3Provider } from "@ethersproject/providers";
 import { Web3Auth } from "@web3auth/modal";
 import { Signer, ethers } from "ethers";
 import toast from "react-hot-toast";
-import { subsContract as rawContract, erc20contract as rawErc20 } from "~~/public/artifacts";
+import { subsContract as rawContract, erc20contract as rawErc20 } from "~~/public/botblock-artifacts";
 import { BotblockMarket, ERC20 } from "~~/types/typechain-types";
 import { parseOrderStruct, parsePlanStruct } from "~~/utils/parsers";
 
